@@ -46,8 +46,7 @@
         <br>
         <div id="result">The document was last modified on : Tue Mar 19 2024 18:50:35 GMT-0400 (Eastern Daylight Time)</div>
         <script>
-          var date = document.lastModified;
-          var lastModifiedDate = new Date(date);
-          document.getElementById("result").innerHTML = "Last modified on : " + lastModifiedDate;
+            document.write("<p>This document was last modified on: "+ document.lastModified + "</p>")
+        </script>
     </body>
 </html>
